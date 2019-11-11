@@ -1,1 +1,16 @@
-### this is a vw plan of mobile
+# vueCli3_vw
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
