@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
 html{
   -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch; /* ios5+ */
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -79,7 +80,6 @@ th {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #000;
-  -webkit-overflow-scrolling: touch; /* ios5+ */
   &>div{
     // height: 100%;
     padding-top: 88px;
