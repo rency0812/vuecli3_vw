@@ -1,5 +1,6 @@
 import axios from 'axios'
 
+// let completed = 1 // 上次请求应完成后，下次请求才能开始
 const transformData = (data) => {
   const arr = []
   if (!data) {
